@@ -1,0 +1,164 @@
+<strings>
+
+    <string id="AppName">WWF2</string>
+
+	<string id="keyOW" scope="foreground">API key for weather</string>
+	<string id="KeyOWPrompt" scope="foreground">get it for free</string>
+	<string id="WUpdInt" scope="foreground">Weather update inteval (minutes)</string>
+
+    <string id="BgndColor">Background Color</string>
+    <string id="TimeColor">Time Color</string>
+    <string id="DateColor" scope="foreground">Date Color</string>
+    
+    <string id="WType" scope="foreground">Widget type</string>
+    <string id="WTypeWeather" scope="foreground">Weather</string>
+    <string id="WTypeTemperatureHistory" scope="foreground">Temperature History</string>
+    <string id="WTypePressureHistory" scope="foreground">Pressure History</string>
+    <string id="WTypeHeartRateHistory" scope="foreground">Heart rate history</string>
+    <string id="WTypeElevationHistory" scope="foreground">Elevation history</string>
+    <string id="WTypeSaturationHistory" scope="foreground">Saturation history</string>
+    
+    <string id="WColor" scope="foreground">Widget color</string>
+    <string id="WAutoColor" scope="foreground">Use auto colors for weather widget</string>
+    <string id="ShowTopFields" scope="foreground">Show top data fields</string>
+    <string id="WShowWindWidget" scope="foreground">Show wind widget</string>
+    <string id="ShowOWMIcons" scope="foreground">Use new weather pictures</string>
+    <string id="WindArrowContour" scope="foreground">Wind arrow as a contour</string>
+    
+    <string id="BatColor" scope="foreground">Battery color</string>
+    <string id="MoonColor" scope="foreground">Moon color</string>
+    
+ 	<string id="MilFt" scope="foreground">Military Format for 24 Hour
+		Time</string>
+	<string id="HFt01" scope="foreground">Use format 01 for horse</string>
+
+	<string id="DF" scope="foreground">Date format</string>
+	<string id="DFHELP" scope="foreground">%w - day of week number, %W - day of week name, %d - day 1 digits (less than 10), %D - day 2 digits, %m - month number 2 digits, %M - month name, %y - year 2 digits, %Y - year 4 digits, %DN - day of year, %WN - week of year ISO 8601, %WD - weather decription</string>
+	
+	<!--SECOND TIME -->
+	<string id="T1TZ" scope="foreground">Time zone ±UTC (minutes)</string>
+	
+	<!--Status -->
+	<string id="SFC0" scope="foreground">Status field left 1 color</string>
+	<string id="SFC1" scope="foreground">Status field left 2 color</string>
+	<string id="SFC2" scope="foreground">Status field left 3 color</string>
+	<string id="SFC3" scope="foreground">Status field right 1 color</string>
+	<string id="SFC4" scope="foreground">Status field right 2 color</string>
+	<string id="SFC5" scope="foreground">Status field right 3 color</string>
+
+	<string id="SF0" scope="foreground">Status field left 1</string>
+	<string id="SF1" scope="foreground">Status field left 2</string>
+	<string id="SF2" scope="foreground">Status field left 3</string>
+	<string id="SF3" scope="foreground">Status field right 1</string>
+	<string id="SF4" scope="foreground">Status field right 2</string>
+	<string id="SF5" scope="foreground">Status field right 3</string>
+	 
+	<!--COLORS -->
+	<string id="COLOR_WHITE" scope="foreground">White</string>
+	<string id="COLOR_LT_GRAY" scope="foreground">Lt Gray</string>
+	<string id="COLOR_DK_GRAY" scope="foreground">Dk Gray</string>
+	<string id="COLOR_BLACK" scope="foreground">Black</string>
+	<string id="COLOR_RED" scope="foreground">Red</string>
+	<string id="COLOR_DK_RED" scope="foreground">Dk Red</string>
+	<string id="COLOR_ORANGE" scope="foreground">Orange</string>
+	<string id="COLOR_YELLOW" scope="foreground">Yellow</string>
+	<string id="COLOR_GREEN" scope="foreground">Green</string>
+	<string id="COLOR_DK_GREEN" scope="foreground">Dk Green</string>
+	<string id="COLOR_BLUE" scope="foreground">Blue</string>
+	<string id="COLOR_DK_BLUE" scope="foreground">Dk Blue</string>
+	<string id="COLOR_PURPLE" scope="foreground">Purple</string>
+	<string id="COLOR_PINK" scope="foreground">Pink</string>
+
+	<!--FIELD TYPES -->
+	<string id="FIELD_TYPE_EMPTY" scope="foreground">Empty</string>
+	<string id="FIELD_TYPE_HR" scope="foreground">Heart rate</string>
+	<string id="FIELD_TYPE_STEPS" scope="foreground">Steps</string>
+	<string id="FIELD_TYPE_PRESSURE" scope="foreground">Pressure (internal sensor)</string>
+	<string id="FIELD_TYPE_TEMPERATURE" scope="foreground">Temperature (internal sensor)</string>
+	<string id="FIELD_TYPE_CALORIES" scope="foreground">Calories</string>
+	<string id="FIELD_TYPE_DISTANCE" scope="foreground">Distance</string>
+	<string id="FIELD_TYPE_FLOOR" scope="foreground">Floor</string>
+	<string id="FIELD_TYPE_ELEVATION" scope="foreground">Elevation above sea level</string>
+	<string id="FIELD_TYPE_SUN_EVENT" scope="foreground">Sun event</string>
+	<string id="FIELD_TYPE_SUNRISE" scope="foreground">Sunrise</string>
+	<string id="FIELD_TYPE_SUNSET" scope="foreground">Sunset</string>
+	<string id="FIELD_TYPE_TIME1" scope="foreground">Second time</string>
+	<string id="FIELD_TYPE_ACTIVE_DAY" scope="foreground">Active time for the current day</string>
+	<string id="FIELD_TYPE_ACTIVE_WEEK" scope="foreground">Active time for the current week</string>
+	<string id="FIELD_TYPE_O2" scope="foreground">Oxygen saturation</string>
+	<string id="FIELD_TYPE_SOLAR_CHARGE" scope="foreground">Solar charge efficiency</string>
+	<string id="FIELD_TYPE_WEIGHT" scope="foreground">Weight</string>
+	<string id="FIELD_TYPE_CONNECTED" scope="foreground">Connected</string>
+	<string id="FIELD_TYPE_NOTIFICATIONS" scope="foreground">Notification</string>
+	<string id="FIELD_TYPE_DND" scope="foreground">DND</string>
+	<string id="FIELD_TYPE_ALARMS" scope="foreground">Alarms</string>
+	<string id="FIELD_TYPE_AMPM" scope="foreground">Am/Pm</string>
+	<string id="FIELD_TYPE_SECONDS" scope="foreground">Seconds</string>
+	<string id="FIELD_TYPE_NOTIFICATIONS_COUNT" scope="foreground">Number of notifications</string>
+	<string id="FIELD_TYPE_ALARMS_COUNT" scope="foreground">Number of alarms</string>
+	<string id="FIELD_TYPE_WEATHER_PRESSURE" scope="foreground">Pressure weather</string>
+	<string id="FIELD_TYPE_WEATHER_HUM" scope="foreground">Humidity weather</string>
+	<string id="FIELD_TYPE_WEATHER_VISIBILITY" scope="foreground">Visibility</string>
+	<string id="FIELD_TYPE_WEATHER_WIND_SPEED" scope="foreground">Wind speed</string>
+	<string id="FIELD_TYPE_WEATHER_WIND_DEG" scope="foreground">Direction of the wind</string>
+	<string id="FIELD_TYPE_WEATHER_UVI" scope="foreground">UVI</string>
+	<string id="FIELD_TYPE_WEATHER_DEW_POINT" scope="foreground">Dew point</string>
+	
+	
+	<!--FIELD NAMES -->
+	<string id="F0" scope="foreground">Field 1</string>
+	<string id="F1" scope="foreground">Field 2</string>
+	<string id="F2" scope="foreground">Field 3</string>
+	<string id="F3" scope="foreground">Field 4</string>
+	<string id="F4" scope="foreground">Field 5</string>
+	<string id="F5" scope="foreground">Field 6</string>
+	<string id="F6" scope="foreground">Top field 1</string>
+	<string id="F7" scope="foreground">Top field 2</string>
+
+	<!--FIELD COLORS -->
+	<string id="C0" scope="foreground">Field 1 Color</string>
+	<string id="C1" scope="foreground">Field 2 Color</string>
+	<string id="C2" scope="foreground">Field 3 Color</string>
+	<string id="C3" scope="foreground">Field 4 Color</string>
+	<string id="C4" scope="foreground">Field 5 Color</string>
+	<string id="C5" scope="foreground">Field 6 Color</string>
+	<string id="C6" scope="foreground">Top field 1 Color</string>
+	<string id="C7" scope="foreground">Top field 2 Color</string>
+
+	<!--Pressure -->
+	<string id="PrU" scope="foreground">Pressure Unit</string>
+
+	<!--WIND -->
+	<string id="WU" scope="foreground">Wind Speed Unit</string>
+	
+	<!--PRESSURE UNITS -->
+	<string id="PrUMmHg" scope="foreground">mmHg</string>
+	<string id="PrUPsi" scope="foreground">Psi</string>
+	<string id="PrUInchHg" scope="foreground">inchHg</string>
+	<string id="PrUBar" scope="foreground">milibar</string>
+	<string id="PrUKPa" scope="foreground">kPa</string>
+	
+	<!--WIND UNITS -->
+	<!--USE VERY!!!! SHOT STRING. its displayed on screen-->
+	<string id="SpeedUnitMSec" scope="foreground">m/s</string>
+	<string id="SpeedUnitKmH" scope="foreground">km/h</string>
+	<string id="SpeedUnitMileH" scope="foreground">mph</string>
+	<string id="SpeedUnitFtSec" scope="foreground">fps</string>
+	<string id="SpeedUnitBof" scope="foreground">bouf</string>
+	<string id="SpeedUnitKnots" scope="foreground">knots</string>
+
+	<!--Settings view -->
+	<string id="SettingsMenu" scope="foreground">Settings</string>
+	<string id="SettingsSave" scope="foreground">Save</string>
+	<string id="SettingsSaveDescription" scope="foreground">save current settings</string>
+	<string id="SettingsLoad" scope="foreground">Load</string>
+	<string id="SettingsRemove" scope="foreground">Remove</string>
+	<string id="SettingsDay" scope="foreground">Day settings</string>
+	<string id="SettingsNight" scope="foreground">Night settings</string>
+	<string id="SwitchDayNight" scope="foreground">Auto switch day/night</string>
+	<string id="SettingsType" scope="foreground">Save settings as</string>
+	<string id="SettingsGlobal" scope="foreground">Global settings</string>
+	<string id="SettingsDontChange" scope="foreground">Dont change settings</string>
+	<string id="SettingsSet" scope="foreground">Select </string>
+	
+</strings>
