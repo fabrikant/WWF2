@@ -59,6 +59,9 @@ class GraphicsField extends SimpleField{
 				if (lastData == null){
 					lastData = data;
 				}
+			}else{
+				oldX = null;
+				oldY = null;
 			}
 
 			xPoint -= 1;

@@ -436,14 +436,14 @@ class WWFView extends WatchUi.WatchFace {
 				needUpdate = false;
 				if (oldValue instanceof  Dictionary){
 					var keys = value.keys();
-					for (var i = 0; i < keys.size(); i++){
-						if(value[keys[i]] has :equals){
-							if (!value[keys[i]].equals(oldValue[keys[i]])){
+					for (var j = 0; i < keys.size(); i++){
+						if(value[keys[j]] has :equals){
+							if (!value[keys[j]].equals(oldValue[keys[j]])){
 								needUpdate = true;
 								break;
 							}
 						}else{
-							if (!value[keys[i]] != oldValue[keys[i]]){
+							if (!value[keys[j]] != oldValue[keys[j]]){
 								needUpdate = true;
 								break;
 							}
